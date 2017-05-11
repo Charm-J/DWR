@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>  
+<!DOCTYPE dwr PUBLIC  
+    "-//GetAhead Limited//DTD Direct Web Remoting 3.0//EN"  
+    "http://directwebremoting.org/schema/dwr30.dtd">  
+<dwr>  
+  <allow>  
+    <!-- 注意，Javascript的类名必须要和真正的class名称一致，否则会报错 -->  
+    <create creator="new" javascript="DwrTest">  
+        <!-- 具体在server端实现的类 -->  
+        <param name="class" value="com.dj.DwrTest"/>  
+    </create>  
+  </allow>  
+</dwr> 
